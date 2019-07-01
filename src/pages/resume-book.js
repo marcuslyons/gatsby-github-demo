@@ -28,9 +28,9 @@ const ListContainer = styled.div`
 export const query = graphql`
   query {
     github {
-      organization(login: "FullstackAcademy") {
-        team(slug: "1904-fsa-ny") {
-          members(first: 53) {
+      organization(login: "Healthwise") {
+        team(slug: "healthwise-frontend") {
+          members(first: 5) {
             edges {
               node {
                 id

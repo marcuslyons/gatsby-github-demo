@@ -17,9 +17,9 @@ exports.createPages = async ({ actions, graphql }) => {
   const { data } = await graphql(`
     query {
       github {
-        organization(login: "FullstackAcademy") {
-          team(slug: "1904-fsa-ny") {
-            members(first: 53) {
+        organization(login: "Healthwise") {
+          team(slug: "healthwise-frontend") {
+            members(first: 5) {
               edges {
                 node {
                   login
